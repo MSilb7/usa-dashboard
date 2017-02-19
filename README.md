@@ -42,6 +42,8 @@ We are striving to produce metrics that are updated at least once a week, and id
 We have several streams of work going on right now, each attached to a milestone:
 
 - [Scraping crime data](https://github.com/Data4Democracy/usa-dashboard/milestone/1):  We have a few cities covered, but we'd like to cover the top 
+  - File Name Format: *[city folder name]*/data/*[city]*-*[year]*-crime.csv
+  - Output Column Format: [Year, Month, Day, Category, Count]
 - [Exploratory data analysis](https://github.com/Data4Democracy/usa-dashboard/milestone/4): After data is collected, it needs to be validated and modeled before we will visualize it.
 - [Deciding what to capture for other metrics](https://github.com/Data4Democracy/usa-dashboard/milestone/2):  We need to decide what else would be good to capture.  Deciding on good metrics is our most important challenge.
 - [Designing the user interface](https://github.com/Data4Democracy/usa-dashboard/milestone/3): Ultimately people will consume the dashboard through web and mobile interfaces, as well as through sharing graphics we we produce.  We need help designing all of these surfaces.
